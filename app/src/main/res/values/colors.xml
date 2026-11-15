@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="highlight_red">#FFB71C1C</color>
+    <color name="banner_orange">#FFFFB300</color>
+    <color name="selected_blue">#FF4FC3F7</color>
+    <color name="divider_gray">#FFCCCCCC</color>
+    <color name="hint_gray">#FF888888</color>
+    <color name="btn_gray">#FFE0E0E0</color>
+    <color name="primary_blue">#FF1565C0</color>
+    <color name="dialog_gray">#FFF5F5F5</color>
+    <color name="pwd_gray">#FF9E9E9E</color>
+    <!-- ActionMode 上下文操作栏背景（深色，图标用白色） -->
+    <color name="action_mode_bg">#FF263238</color>
+    <color name="selected_blue_deep">#FF29B6F6</color>
+</resources>

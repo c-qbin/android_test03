@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 椭圆（胶囊形）Toast 背景：左右两端为完整的半圆 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid android:color="#CC2B2B2B" />
+
+    <corners android:radius="48dp" />
+
+</shape>

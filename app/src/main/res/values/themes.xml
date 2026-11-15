@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Android_test03" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/primary_blue</item>
+        <item name="colorOnSecondary">@color/white</item>
+    </style>
+
+    <style name="Theme.Android_test03" parent="Base.Theme.Android_test03" />
+
+    <!-- 任务4 专用：ActionMode 上下文操作栏的勾选图标换成白色 -->
+    <style name="Theme.Android_test03.ActionMode" parent="Theme.Android_test03">
+        <item name="actionModeCloseDrawable">@drawable/ic_action_mode_done</item>
+    </style>
+</resources>

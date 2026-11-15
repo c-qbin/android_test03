@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">android_test03</string>
+
+    <!-- 主菜单 -->
+    <string name="title_main">实验3 Android界面组件</string>
+    <string name="btn_task1">1：Android ListView的用法</string>
+    <string name="btn_task2">2：创建自定义布局的AlertDialog</string>
+    <string name="btn_task3">3：使用XML定义菜单</string>
+    <string name="btn_task4">4：创建上下文操作模式(ActionMode)的上下文菜单</string>
+    <string name="btn_task5">5：使用RecyclerView实现列表视图效果</string>
+
+    <!-- 各实验独立入口的应用名（桌面图标名） -->
+    <string name="label_task1">实验1 ListView</string>
+    <string name="label_task2">实验2 登录对话框</string>
+    <string name="label_task3">实验3 选项菜单</string>
+    <string name="label_task4">实验4 ActionMode</string>
+    <string name="label_task5">实验5 RecyclerView</string>
+
+    <!-- 动物名 -->
+    <string name="lion">Lion</string>
+    <string name="tiger">Tiger</string>
+    <string name="monkey">Monkey</string>
+    <string name="dog">Dog</string>
+    <string name="cat">Cat</string>
+    <string name="elephant">Elephant</string>
+
+    <!-- 通知 -->
+    <string name="channel_name">动物列表通知</string>
+    <string name="channel_desc">点击列表项时发送通知</string>
+    <string name="notif_content_template">你选择了 %1$s，这是一个 %2$s 的通知示例。</string>
+    <string name="toast_selected_template">当前选中：%1$s</string>
+
+    <!-- 对话框 -->
+    <string name="app_title_banner">ANDROID APP</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="cancel">Cancel</string>
+    <string name="sign_in">Sign in</string>
+    <string name="btn_open_dialog">点击打开登录对话框</string>
+    <string name="login_success_template">登录成功：%1$s / %2$s</string>
+    <string name="login_cancel">已取消登录</string>
+
+    <!-- 菜单任务 -->
+    <string name="test_text">用于测试的内容</string>
+    <string name="menu_font_size">字体大小</string>
+    <string name="menu_small">小（10号字）</string>
+    <string name="menu_medium">中（16号字）</string>
+    <string name="menu_large">大（20号字）</string>
+    <string name="menu_normal">普通菜单项</string>
+    <string name="menu_font_color">字体颜色</string>
+    <string name="menu_red">红色</string>
+    <string name="menu_black">黑色</string>
+    <string name="msg_normal_menu">你点击了普通菜单项</string>
+    <string name="msg_size_changed">字号已设置为 %1$d sp</string>
+    <string name="msg_color_changed">字体颜色已设置为 %1$s</string>
+
+    <!-- ActionMode 任务 -->
+    <string name="action_mode_selected">%1$d selected</string>
+    <string name="action_mode_delete">删除</string>
+    <string name="toast_item_selected">已选中：%1$s</string>
+    <string name="toast_item_unselected">已取消选中：%1$s</string>
+    <string name="toast_deleted">已删除 %1$d 项</string>
+
+    <!-- RecyclerView 任务 -->
+    <string name="btn_add_animal">增加一条记录</string>
+
+    <!-- 返回主页面 -->
+    <string name="btn_back_home">返回主页面</string>
+</resources>

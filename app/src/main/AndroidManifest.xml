@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Android_test03">
+
+        <!-- 主页面：App 默认启动入口，按钮跳转到各实验 -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 各实验页面：由主页面按钮跳转进入 -->
+        <activity
+            android:name=".ListViewActivity"
+            android:exported="false"
+            android:label="@string/label_task1" />
+
+        <activity
+            android:name=".LoginDialogActivity"
+            android:exported="false"
+            android:label="@string/label_task2" />
+
+        <activity
+            android:name=".OptionsMenuActivity"
+            android:exported="false"
+            android:label="@string/label_task3" />
+
+        <activity
+            android:name=".ActionModeActivity"
+            android:exported="false"
+            android:label="@string/label_task4"
+            android:theme="@style/Theme.Android_test03.ActionMode" />
+
+        <activity
+            android:name=".RecyclerViewActivity"
+            android:exported="false"
+            android:label="@string/label_task5" />
+
+    </application>
+
+</manifest>
